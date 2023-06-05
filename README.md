@@ -1,5 +1,5 @@
-# O2-Web-App
-o2-production-app
+# O2-Web-App:
+A web application for managing fest events and 
 
 # Want to contribute to the project follow this steps to get you up and running:
 
