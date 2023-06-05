@@ -1,0 +1,31 @@
+O2 The Fest
+
+Basic Requirements
+
+	Home Page (About the fest, about college, Sponsors Slider, C&VC display)
+	Teams Page
+	Events Page
+	Sponsors (Current Sponsors/ Past Sponsors)
+	Image Gallery (Optional)
+	Admin Login
+	Contingent Leader Login
+	Notice Page
+
+
+Admin Controls
+
+	Admin can login
+	Admin can add Contingent Leader (CL)
+	Admin can handle registration deadlines.
+	Admin can view form entries
+	Admin can view CL Details
+
+
+CL Controls
+
+	CL can login
+	Forgot password*
+	CL can register for events
+
+
+
