@@ -1,7 +1,7 @@
 # O2-Web-App:
 A web application for managing fest events and 
 
-# Want to contribute to the project follow this steps to get you up and running:
+# Getting started:
 
 1) Fork the repo --> by pressing fork button and setting yourself as the owner of the repo.
 2) Initalize the repo --> on you local machine create a folder and run the git init command.
