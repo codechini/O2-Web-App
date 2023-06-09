@@ -16,9 +16,9 @@ const Registration = () => {
       >
         <Container>
           <Modal.Body>
-            <Form className='text-center px-5'> {/*onSubmit={Function()} */}
+            <Form className='text-center px-3 py-3'> {/*onSubmit={Function()} */}
               <Form.Group className="mb-3 text-start" controlId="formBasicEmail">
-                <Form.Label>Email address</Form.Label>
+                <Form.Label >Email address</Form.Label>
                 <Form.Control type="email" placeholder="Enter email" id='email' />
               </Form.Group>
 
