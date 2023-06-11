@@ -7,7 +7,8 @@ import React, { Component }  from 'react';
 function App() {
   return (
     <>
-      <Login />
+      {/* <Login /> */}
+      <Registration />
     </>
   );
 }
