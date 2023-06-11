@@ -6,7 +6,8 @@ import Registration from './Pages/Registration';
 function App() {
   return (
     <>
-      <Login />
+      {/* <Login /> */}
+      <Registration />
     </>
   );
 }
