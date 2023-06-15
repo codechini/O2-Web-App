@@ -1,5 +1,5 @@
 # O2-Web-App:
-A web application for managing fest events and 
+An event managment web application for managing sub-events of an oraganization
 
 # Getting started:
 
