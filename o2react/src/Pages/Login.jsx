@@ -19,7 +19,7 @@ const Login = () => {
             <span>OR</span>
             <div className="container">
               <div className="login-w-google">
-                <a href="https://ghchart.rshah.org/">
+                <a href="https://www.google.com/">
                   <FcGoogle size={26} />&nbsp;&nbsp;Login with Google
                 </a>
               </div>
