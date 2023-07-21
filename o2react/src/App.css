@@ -2,7 +2,10 @@
   --bg-color:rgb(20,20,20);
   --accent-color:rgb(255, 165, 13);
   --shadow-color:rgb(200,200,200);
-  --font-size-sm:12px;
+  --text-color-light:rgb(255,255,255);
+  --text-color-dark:rgb(20,20,20);
+  --log-w-google:rgb(255,255,255);
+  --font-size-sm:14px;
   --font-size-md:22px;
   --font-size-lg:32px;
 }
@@ -14,6 +17,9 @@
 a{
   text-decoration: none;
   color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 li {
   list-style: none;
@@ -26,7 +32,7 @@ form{
   justify-content: center;
   text-align: center;
   background: var(--accent-color);
-  padding: 120px 20px 10px 20px;
+  padding: 50px 20px 20px 20px;
   /* margin: 0% 20%; */
   /* box-shadow: 20px 20px 50px 10px var(--shadow-color); */
 }
@@ -36,7 +42,7 @@ input{
   align-items: center;
   height: 60px;
   /* margin: 0px 10px; */
-  border: 1px solid;
+  border: 1px solid var(--shadow-color);
   padding-left: 15px;
 }
 input:focus{
@@ -45,10 +51,14 @@ input:focus{
 input:nth-child(1){
   border-radius: 10px 10px 0px 0px;
 }
-input:nth-child(4){
+input:last-child{
   border-radius: 0px 0px 10px 10px;
   margin-top: 10px;
   padding: 0;
+  text-shadow: 0px 1px 1px var(--shadow-color);
+}
+.header{
+  font-size: var(--font-size-lg);
 }
 .inner{
 /* border: 1px solid; */
@@ -57,14 +67,39 @@ input:nth-child(4){
   justify-content: center;
   text-align: center;
   background: var(--accent-color);
-  /* padding: 120px 20px; */
+  padding: 20px 0px;
   /* margin: 0% 20%; */
+  border-radius: 10px;
   box-shadow: 20px 20px 50px 10px var(--shadow-color);
 }
 .lg-nav {
   background-color: var(--bg-color);
   font-size: var(--font-size-lg);
   display: none;
+}
+.login-w-google{
+  background: var(--log-w-google);
+  border-radius: 50px;
+  margin: 5px 20px 10px 20px;
+  padding: 5px 15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 2px var(--bg-color);
+}
+.login-w-google > a{
+  color: var(--text-color-dark);
+}
+.forgot-pass{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.forgot-pass>a{
+  font-size: var(--font-size-sm);
+  color: var(--text-color-dark);
 }
 .mobile-nav {
   background-color: var(--bg-color);
@@ -75,7 +110,7 @@ input:nth-child(4){
     display: none;
 }
 .outer{
-  border: 1px solid;
+  /* border: 1px solid; */
   display: flex;
   height: 100vh;
   align-items: center;
