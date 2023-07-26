@@ -54,9 +54,10 @@ input:last-child{
   display: flex;
   justify-content: start;
 }
-.m-nav .container:nth-child(2){
+
+.d-nav .container:nth-child(2){
   display: flex;
-  justify-content: end;
+  justify-content: center;
 }
 .d-nav .container:last-child{
   display: flex;
@@ -81,6 +82,10 @@ input:last-child{
 }
 .m-nav a{
   padding: 5px 5px;
+}
+.m-nav .container:nth-child(2){
+  display: flex;
+  justify-content: end;
 }
 .menu-btn{
   background: none;
